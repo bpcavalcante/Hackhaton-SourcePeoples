@@ -10,6 +10,9 @@ import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { EntregasComponent } from './entregas/entregas.component';
 import { PedidosComponent } from './pedidos/pedidos.component';
+import { PedidoComponent } from './pedido/pedido.component';
+import { MinhasentregaComponent } from './minhasentrega/minhasentrega.component';
+import { EntregaspartedoisComponent } from './entregaspartedois/entregaspartedois.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { PedidosComponent } from './pedidos/pedidos.component';
     LoginComponent,
     HomeComponent,
     EntregasComponent,
-    PedidosComponent
+    PedidosComponent,
+    PedidoComponent,
+    MinhasentregaComponent,
+    EntregaspartedoisComponent
   ],
   imports: [
     BrowserModule,
