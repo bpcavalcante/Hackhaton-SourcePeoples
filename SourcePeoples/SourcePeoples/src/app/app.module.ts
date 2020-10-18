@@ -13,6 +13,13 @@ import { PedidosComponent } from './pedidos/pedidos.component';
 import { PedidoComponent } from './pedido/pedido.component';
 import { MinhasentregaComponent } from './minhasentrega/minhasentrega.component';
 import { EntregaspartedoisComponent } from './entregaspartedois/entregaspartedois.component';
+import { TesteComponent } from './teste/teste.component';
+import { MeuspedidosComponent } from './meuspedidos/meuspedidos.component';
+import { ConfirmarrecebimentoComponent } from './confirmarrecebimento/confirmarrecebimento.component';
+import { ConfirmarentregaComponent } from './confirmarentrega/confirmarentrega.component';
+import { PedidoentregueComponent } from './pedidoentregue/pedidoentregue.component';
+import { QrcodeComponent } from './qrcode/qrcode.component';
+import { HistoricoComponent } from './historico/historico.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +32,14 @@ import { EntregaspartedoisComponent } from './entregaspartedois/entregaspartedoi
     PedidosComponent,
     PedidoComponent,
     MinhasentregaComponent,
-    EntregaspartedoisComponent
+    EntregaspartedoisComponent,
+    TesteComponent,
+    MeuspedidosComponent,
+    ConfirmarrecebimentoComponent,
+    ConfirmarentregaComponent,
+    PedidoentregueComponent,
+    QrcodeComponent,
+    HistoricoComponent
   ],
   imports: [
     BrowserModule,
